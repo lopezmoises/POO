@@ -1,0 +1,14 @@
+package all;
+
+public class Pessoa {
+
+	private Long Id;
+	
+	private String Nome;
+	
+	private String Email;
+	
+	private String Telefone;
+	
+	
+}
