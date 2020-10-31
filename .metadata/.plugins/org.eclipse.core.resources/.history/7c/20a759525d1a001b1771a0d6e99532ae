@@ -1,0 +1,47 @@
+package ex2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class index {
+
+	public static void main(String[] args) {
+
+		ArrayList<Carro> carros = new ArrayList<Carro>();
+
+		String placa, chassi, cor, defeito,aux;
+
+		boolean control = true;
+
+		Scanner scanner = new Scanner(System.in);
+
+		while (control) {
+			System.out.println("Insira a placa do carro");
+			placa = scanner.nextLine();
+			System.out.println("Insira nro de chassi do carro");
+			chassi = scanner.nextLine();
+			System.out.println("Insira a cor do carro");
+			cor = scanner.nextLine();
+			System.out.println("Insira defeito  do carro");
+			defeito = scanner.nextLine();
+
+			carros.add(new Carro(placa, chassi, cor, defeito));
+
+			System.out.println("Para sair escreva 'exit'");
+			aux = scanner.next();
+			if ( aux == "exit") {
+				control = false;
+			}
+			System.out.println(aux);
+			System.out.println(control);
+
+		}
+
+		for (Carro car : carros) {
+			System.out.println(car);
+		}
+
+		scanner.close();
+	}
+
+}
