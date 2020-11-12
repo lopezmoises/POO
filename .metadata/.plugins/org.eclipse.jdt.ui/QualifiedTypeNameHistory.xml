@@ -10,11 +10,16 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
     <fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ex1.PessoaFisica"/>
     <fullyQualifiedTypeName name="ex1.Pessoa"/>
     <fullyQualifiedTypeName name="ex1.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ex2.Midias"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ex2.Cd"/>
+    <fullyQualifiedTypeName name="ex2.Dvd"/>
+    <fullyQualifiedTypeName name="ex2.PenDrive"/>
 </qualifiedTypeNameHistroy>
