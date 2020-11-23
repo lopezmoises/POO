@@ -10,7 +10,7 @@ public class Exercicio01 {
 
         System.out.println("Que tipo de lampada deseja constriur \nI- Incandescente \nF- Fluorescente");
         String l = scanner.nextLine();
-        if (l.equals("I") || l.equals("F")) {
+        if (l.equalsIgnoreCase("I") || l.equalsIgnoreCase("F")) {
             Lampada lampada = fabricaLampada.construir(l);
             lampada.ligar();
             lampada.desligar();
