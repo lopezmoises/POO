@@ -1,5 +1,5 @@
 {
-	"folders": [
+    "folders": [
         {
             "path": ".metadata"
         },
@@ -13,16 +13,19 @@
             "path": "Aula3"
         },
         {
-            "path": "POO1"
+            "path": "Aula4"
         },
         {
-            "path": "Aula4"
+            "path": "Aula5"
+        },
+        {
+            "path": "Avaliacao1"
         },
         {
             "path": "Lista1"
         },
         {
-            "path": "Aula5"
+            "path": "POO1"
         }
     ]
 }
